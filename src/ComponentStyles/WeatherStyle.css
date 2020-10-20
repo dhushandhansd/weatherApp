@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+.navbar {
+    padding: 1em;
+}
+
+
+.navbar img {
+    padding-top: .3em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.refresher {
+    display: inline-block;
+    padding-left: 1em;
+}
+
+body {
+    background-image: url(../assets/cloudybg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+}
+
+.weatherContainer {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+
+.image-humidity{
+    height: 15em;
+    display: inline;
+    padding-left: 1em;
+    text-align: right;
+}
+
+.weather {
+    font-size: 3rem;
+    padding-left: 1em;
+    text-align: right;
+    display: inline;
+}
+
+.city-country {
+    padding-left: .3em;
+    text-align: right;
+    display: inline;
+}
+
+.mildweather {
+    font-size: x-large;
+}
+
+.temp {
+    font-size: xx-large;
+}
+
+.cities {
+    position: absolute;
+    left: 17vw;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 2em;
+}
+
+.cities ul {
+    list-style: none;
+}
+
+.cities ul li {
+    display: inline;
+    padding-left: 2em;
+    border-style: none;
+}
+
+@media screen and (max-width:420px) {
+        
+    .navbar {
+        padding: 1em;
+    }
+
+    .navbar img {
+        padding-top: .3em;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    .refresher {
+        display: inline-block;
+        padding-left: 1em;
+    }
+
+    body {
+        background-image: url(../assets/cloudybg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center ;
+    }
+
+    .weatherContainer {
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: right;
+    }
+
+    .image-humidity{
+        height: 15em;
+        display: inline;
+        padding-left: 1em;
+        text-align: right;
+    }
+
+    .weather {
+        font-size: 3rem;
+        padding-left: 1em;
+        text-align: right;
+        display: inline;
+    }
+
+    .city-country {
+        padding-left: .3em;
+        text-align: right;
+        display: inline;
+    }
+
+    .mildweather {
+        font-size: x-large;
+    }
+
+    .temp {
+        font-size: xx-large;
+    }
+
+    .cities {
+        position: absolute;
+        left: 17vw;
+        bottom: 0;
+        right: 0;
+        padding-bottom: 2em;
+    }
+
+    .cities ul {
+        list-style: none;
+    }
+
+    .cities ul li {
+        display: inline-flex;
+        padding-left: 0.5em;
+        padding-right: 0.6em;
+        padding-top: 1em;
+        border-style: none;
+    }
+   
+}
